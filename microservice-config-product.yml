@@ -9,7 +9,7 @@ mybatis:
   type-aliases-package: com.vansoft.springcloud.entities # 所有Entity别名类所在包
   mapper-locations: classpath:mybatis/mapper/**/*.xml # mapper映射文件
 emp:
-  name: lisi1111
+  name: wangwu
 logging:
   level:
     com.vansoft.springcloud: debug
