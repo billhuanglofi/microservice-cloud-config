@@ -8,7 +8,8 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml # mybatis配置文件所在路径
   type-aliases-package: com.vansoft.springcloud.entities # 所有Entity别名类所在包
   mapper-locations: classpath:mybatis/mapper/**/*.xml # mapper映射文件
-
+emp:
+  name: zhangsan
 logging:
   level:
     com.vansoft.springcloud: debug
@@ -36,8 +37,7 @@ eureka:
 instance:
   instanceId: ${spring.application.name}:${server.port} 
   prefer-ip-address: true
-emp:
-  name: zhangsan
+
 
 ---
 server:
